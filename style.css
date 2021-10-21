@@ -1,0 +1,66 @@
+button{
+    color:white;
+    background-color: blue;
+    border-radius:10px;
+    padding:10px;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    background-color: #1f2937;
+    color:white;
+
+} 
+.section1{
+    display:flex;
+    flex-direction:row;
+    color:#f9fAF8;
+    background-color:#1f2937 ;
+}
+.img-holder {
+    flex:0;
+    display:flex;
+    min-height:200px;
+    min-width:400px;
+    background-color: grey;
+    align-items:center;
+    justify-content: center;
+    
+}
+.fact-text{
+
+}
+.textbox{
+    flex:1;
+    color:#f9fAF8;
+}
+.fact{
+    flex:0 0 100px;
+}
+.quote{
+    
+}
+.fact-img{
+    height:100px;
+    width:100px;
+    border:2px solid blue;
+    border-radius:10px;
+}
+.section2content{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:30px;
+}
+.section3{
+    background-color: #e5e7eb;
+}
+.footer{
+    background-color: #1f2937;
+
+}
+a{
+    color:#e5e7eb;
+}
