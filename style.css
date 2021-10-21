@@ -1,8 +1,17 @@
 button{
     color:white;
-    background-color: blue;
+    background-color: #3882f6;
     border-radius:10px;
     padding:10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header-links{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
 }
 .header{
     display:flex;
@@ -11,13 +20,34 @@ button{
     justify-content:space-between;
     background-color: #1f2937;
     color:white;
+    flex:0;
+    padding:0px 30px;
 
 } 
-.section1{
+.section{
     display:flex;
+    flex:0 0 300px;
+}
+.section1{
     flex-direction:row;
     color:#f9fAF8;
     background-color:#1f2937 ;
+    padding: 50px 70px;
+}
+.section1button{
+    border-color: #3882f6;
+}
+.section2{
+    flex-direction:column;
+}
+.section2header{
+    margin:30px;
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    justify-content: center;
+
 }
 .img-holder {
     flex:0;
@@ -28,6 +58,11 @@ button{
     align-items:center;
     justify-content: center;
     
+}
+.hero-img{
+    height:200px;
+    width:400px;
+
 }
 .fact-text{
 
@@ -40,7 +75,10 @@ button{
     flex:0 0 100px;
 }
 .quote{
-    
+   font-size: 36px;
+   font-style:italic;
+   font-weight:300;
+   color:#1f2937; 
 }
 .fact-img{
     height:100px;
@@ -56,10 +94,29 @@ button{
 }
 .section3{
     background-color: #e5e7eb;
+    flex-direction: column;
+}
+.quotesource{
+    align-self:flex-end;
+}
+.section4{
+    align-items:center;
+    justify-content:center;
 }
 .footer{
     background-color: #1f2937;
+    flex:0;
 
+}
+.section4box{
+ margin: 80px;
+ border-radius: 10px;
+ background-color:#3882f6;
+ padding:20px;
+ display:flex;
+}
+li{
+    list-style-type: none ;
 }
 a{
     color:#e5e7eb;
