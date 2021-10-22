@@ -7,6 +7,7 @@ button{
 body{
     display: flex;
     flex-direction: column;
+    align-content:stretch;
 }
 .header-links{
     display:flex;
@@ -55,13 +56,13 @@ body{
     min-height:200px;
     min-width:400px;
     background-color: grey;
-    align-items:center;
-    justify-content: center;
+    align-items:stretch;
+    justify-content: stretch;
     
 }
 .hero-img{
-    height:200px;
-    width:400px;
+    flex:0 0 400px;
+    width:200px;
 
 }
 .fact-text{
@@ -81,8 +82,8 @@ body{
    color:#1f2937; 
 }
 .fact-img{
-    height:100px;
-    width:100px;
+    height:150px;
+    width:150px;
     border:2px solid blue;
     border-radius:10px;
 }
@@ -95,6 +96,7 @@ body{
 .section3{
     background-color: #e5e7eb;
     flex-direction: column;
+    padding:50px;
 }
 .quotesource{
     align-self:flex-end;
@@ -103,6 +105,14 @@ body{
     align-items:center;
     justify-content:center;
 }
+.cta{
+    margin:0px  0px;
+    font-size:32px;
+    font-weight:700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 .footer{
     background-color: #1f2937;
     flex:0;
@@ -112,8 +122,17 @@ body{
  margin: 80px;
  border-radius: 10px;
  background-color:#3882f6;
- padding:20px;
+ padding:30px;
  display:flex;
+ align-items:center;
+ gap:40px;           
+}
+.section4text{
+display:flex;
+flex-direction:column;
+justify-content:center;
+
+
 }
 li{
     list-style-type: none ;
