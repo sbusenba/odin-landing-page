@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     align-content:stretch;
+    margin:0 0;
 }
 .header-links{
     display:flex;
@@ -27,7 +28,7 @@ body{
 } 
 .section{
     display:flex;
-    flex:0 0 300px;
+    flex:0 0 400px;
 }
 .section1{
     flex-direction:row;
@@ -50,19 +51,20 @@ body{
     justify-content: center;
 
 }
+.logo{
+    font-size:32px;
+}
 .img-holder {
-    flex:0;
+    flex:1;
     display:flex;
-    min-height:200px;
-    min-width:400px;
-    background-color: grey;
-    align-items:stretch;
-    justify-content: stretch;
+    
+  ch;
     
 }
 .hero-img{
-    flex:0 0 400px;
-    width:200px;
+    flex:1 0 400px;
+    width:400px;
+    height:auto;
 
 }
 .fact-text{
@@ -78,7 +80,7 @@ body{
 .quote{
    font-size: 36px;
    font-style:italic;
-   font-weight:300;
+   font-weight:200;
    color:#1f2937; 
 }
 .fact-img{
@@ -86,6 +88,10 @@ body{
     width:150px;
     border:2px solid blue;
     border-radius:10px;
+}
+.fact-text{
+    text-align:center;
+    
 }
 .section2content{
     display:flex;
@@ -96,9 +102,13 @@ body{
 .section3{
     background-color: #e5e7eb;
     flex-direction: column;
-    padding:50px;
+    padding:60px;
+    align-items:center;
+    justify-content:center;
 }
 .quotesource{
+    color:#1f2937; 
+    font-size:24px;
     align-self:flex-end;
 }
 .section4{
@@ -114,9 +124,13 @@ body{
 
 
 .footer{
-    background-color: #1f2937;
-    flex:0;
+    color:#e5e7eb;
 
+    background-color: #1f2937;
+    flex:0 0 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .section4box{
  margin: 80px;
