@@ -29,7 +29,7 @@ body{
 } 
 .section{
     display:flex;
-    flex:0 0 400px;
+    flex:1 0 400px;
 }
 h1{
     font-size:48px;
@@ -41,13 +41,14 @@ h1{
     flex-direction:row;
     color:#f9fAF8;
     background-color:#1f2937 ;
-    padding: 50px 70px;
+    padding: 2rem 3rem;
 }
 .section1button{
     border-color: #3882f6;
 }
 .section2{
     flex-direction:column;
+    flex-wrap:wrap;
 }
 .section2header{
     margin:30px;
@@ -68,9 +69,15 @@ h1{
 
     
 }
+@media (max-width:700px){
+    .section1 {
+        flex-direction:column-reverse;
+    }
+}
 .hero-img{
-    flex:1 0 400px;
-    width:400px;
+    flex:1 1 400px;
+    max-width: 500px;
+    min-width:200px;
     height:auto;
 
 }
@@ -80,6 +87,7 @@ h1{
 .textbox{
     flex:1;
     color:#f9fAF8;
+    padding:1rem;
 }
 
 .quote{
@@ -104,8 +112,9 @@ h1{
 .section2content{
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     justify-content:space-around;
-    gap:30px;
+    gap:2rem;
 }
 .section3{
     background-color: #e5e7eb;
